@@ -1,0 +1,73 @@
+# =========================
+# ENTORNO VIRTUAL
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.*
+
+# =========================
+# BASES DE DATOS
+# =========================
+*.db
+*.sqlite3
+
+# (si quieres mantener tu DB, comenta la línea de arriba)
+
+# =========================
+# ARCHIVOS DE ENTORNO / SECRETOS
+# =========================
+.env
+*.env
+
+# =========================
+# NOTEBOOKS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# ARCHIVOS TEMPORALES
+# =========================
+*.log
+*.tmp
+
+# =========================
+# SISTEMA OPERATIVO
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# DATOS (OPCIONAL)
+# =========================
+datos_excel/
+db/
+
+# 👉 OJO:
+# Si quieres versionar datos, comenta estas líneas
+
+# =========================
+# PDFs (OPCIONAL)
+# =========================
+*.pdf
+
+# 👉 Si quieres subir PDFs, comenta esta línea
+
+# =========================
+# VS CODE
+# =========================
+.vscode/
+
+# =========================
+# OTROS
+# =========================
+*.zip
